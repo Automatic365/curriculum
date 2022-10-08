@@ -3,7 +3,7 @@ ruby "1.9.3"
 
 gem 'redcarpet', '1.17.2'
 gem 'nokogiri'
-gem 'pdfkit'
+gem 'pdfkit', '>= 0.8.7'
 
 gem 'certified'
 gem 'rake'
