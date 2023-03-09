@@ -2,7 +2,7 @@ source "http://rubygems.org"
 ruby "1.9.3"
 
 gem 'redcarpet', '1.17.2'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.10.5'
 gem 'pdfkit'
 
 gem 'certified'
