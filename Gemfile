@@ -2,12 +2,12 @@ source "http://rubygems.org"
 ruby "1.9.3"
 
 gem 'redcarpet', '1.17.2'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.18.3'
 gem 'pdfkit'
 
 gem 'certified'
 gem 'rake'
-gem 'rack', '~> 1.4.1'
+gem 'rack', '~> 2.2.11'
 gem 'jekyll', '~> 0.11.2'
 gem 'rdiscount', '~> 1.6.8'
 gem 'RedCloth', '~> 4.2.9'
@@ -19,5 +19,5 @@ gem 'liquid', '~> 2.3.0'
 
 gem 'sinatra', '~> 1.3.2'
 gem 'sinatra-subdomain'
-gem 'puma'
+gem 'puma', '>= 2.12.0'
 gem 'redis'
